@@ -1,0 +1,16 @@
+.modal{
+    margin-top: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close{
+    cursor: pointer;
+}
+
