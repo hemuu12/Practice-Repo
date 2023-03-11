@@ -10,8 +10,10 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: teal;
   position: relative;
+  padding-left: 3px;
+  padding-right: 5px;
 }
 
 .nav > .nav-header {
