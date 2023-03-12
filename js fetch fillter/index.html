@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Fething , Filtering And Sorting</h1>
+    </div>
+
+    <!-- filter -->
+    <div>
+        <select id="brandfilter" onchange="handleOnChange(event)">
+            <option value="ALL">ALL</option>
+            <option value="ADIDAS">ADIDAS</option>
+            <option value="WROGN">WROGN</option>
+            <option value="LEVI'S">LEVI'S</option>   
+            <option value="AUSK">AUSK</option> 
+            <option value="Smartees">Smartees</option>
+            <option value="Young trendz">Young trendz</option>
+            <option value="LEE">LEE</option>
+        </select>
+    </div>
+
+
+    <!-- data here -->
+    <div id="append" class="append">
+    </div>
+
+    <div id="paginationDiv">
+        <label for="">Select Page Number</label>
+        <select name="filter" id="filter" onchange="handleOnChangePage(event)">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+ 
+</body>
+</html>
+<script src="./index.js"></script>
