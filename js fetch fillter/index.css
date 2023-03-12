@@ -1,0 +1,9 @@
+.append{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
